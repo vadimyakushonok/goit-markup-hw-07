@@ -1,0 +1,107 @@
+.footer-site {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+
+    .container {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.contacts-footer {
+    margin-right: 69px;
+
+    .logotype {
+        color: $logo-color-theme-dark;
+        margin-bottom: 20px;
+}
+
+.address-footer {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-color-theme-dark;
+
+    .footer-link {
+        color: $transparent-text;
+    
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.social-footer .subtitle, 
+.mailing-footer .subtitle {
+    color: $main-color-theme-dark;
+}
+
+.social-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-footer .subtitle,
+.mailing-footer .subtitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.social-footer {
+    margin-right: 94px;
+
+    .social-icons-link {
+        color: $accent-color-blu-fone;
+        background-color: rgba(255, 255, 255, 0.1);
+
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.mailing-footer-form {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.mailing-footer-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-right: 12px;
+    padding-left: 16px;    
+
+    background-color: transparent;
+    color: $accent-color-blu-fone;
+
+    font-family: $main-font;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.mailing-footer .modal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: $accent-color-blu-fone;
+}
+
+.send-icon {
+    margin-left: 10px;
+}
