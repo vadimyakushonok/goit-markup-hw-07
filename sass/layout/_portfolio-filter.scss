@@ -1,10 +1,11 @@
 .filter {
     padding-top: 93px;
     padding-bottom: 50px;
-}
 
-.filter .filter-title {
-    margin-bottom: 0;
+    .filter-title {
+        margin-bottom: 0;
+    }
+    
 }
 
 .filter-list {
@@ -37,11 +38,11 @@
     border-radius: 4px;
 
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.filter-modal-btn:hover,
-.filter-modal-btn:focus {
-    background-color: $accent-color;
-    color: $accent-color-blu-fone;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        color: $accent-color-blu-fone;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
 }

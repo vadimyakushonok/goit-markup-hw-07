@@ -1,3 +1,14 @@
+/* Футер */
+
+.contacts-footer {
+    margin-right: 69px;
+
+    .logotype {
+    color: $logo-color-theme-dark;
+    margin-bottom: 20px;
+    }
+}
+
 .footer-site {
     display: flex;
     padding-top: 60px;
@@ -8,14 +19,6 @@
         display: flex;
         align-items: baseline;
     }
-}
-
-.contacts-footer {
-    margin-right: 69px;
-
-    .logotype {
-        color: $logo-color-theme-dark;
-        margin-bottom: 20px;
 }
 
 .address-footer {
@@ -36,6 +39,8 @@
 .social-footer .subtitle, 
 .mailing-footer .subtitle {
     color: $main-color-theme-dark;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .social-list {
@@ -48,21 +53,15 @@
     margin-right: 10px;
 }
 
-.social-footer .subtitle,
-.mailing-footer .subtitle {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
 .social-footer {
     margin-right: 94px;
 
     .social-icons-link {
         color: $accent-color-blu-fone;
         background-color: rgba(255, 255, 255, 0.1);
-
+    
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
